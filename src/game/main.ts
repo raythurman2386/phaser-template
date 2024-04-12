@@ -8,8 +8,8 @@ export const gameConfig: Types.Core.GameConfig = {
   backgroundColor: "#351f1b",
   scale: {
     mode: Phaser.Scale.ScaleModes.NONE,
-    width: window.innerWidth,
-    height: window.innerHeight,
+    width: 800,
+    height: 600,
   },
   physics: {
     default: "arcade",
