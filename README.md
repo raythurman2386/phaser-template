@@ -1,6 +1,3 @@
-Certainly! Here's a sample README.md file for your NextJS Template project with Phaser integration:
-
-````markdown
 # NextJS Phaser Template
 
 This is a template project that combines NextJS and Phaser, providing an easy setup for game development with the power of NextJS and the simplicity of Phaser.
@@ -15,6 +12,10 @@ This is a template project that combines NextJS and Phaser, providing an easy se
 
 ## Getting Started
 
+### Deploy Your Own!
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fraythurman2386%2Fphaser-template.git)
+
 ### Prerequisites
 
 - Node.js (version 12 or higher)
@@ -27,6 +28,7 @@ This is a template project that combines NextJS and Phaser, providing an easy se
    ```bash
    git clone https://github.com/raythurman2386/phaser-template.git
    ```
+
 ````
 
 2. Navigate to the project directory:
@@ -85,3 +87,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 - [NextJS](https://nextjs.org/)
 - [Phaser](https://phaser.io/)
+````
