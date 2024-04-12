@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Certainly! Here's a sample README.md file for your NextJS Template project with Phaser integration:
+
+````markdown
+# NextJS Phaser Template
+
+This is a template project that combines NextJS and Phaser, providing an easy setup for game development with the power of NextJS and the simplicity of Phaser.
+
+## Features
+
+- NextJS for server-side rendering and building web applications
+- Phaser for creating interactive games
+- Seamless integration of Phaser with NextJS
+- Easy setup and configuration
+- Customizable project structure
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js (version 12 or higher)
+- npm (version 6 or higher) or Yarn
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/raythurman2386/phaser-template.git
+   ```
+````
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd phaser-template
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+### Running the Development Server
+
+To start the development server, run the following command:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Building for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To build the project for production, run the following command:
 
-## Learn More
+```bash
+npm run build
+# or
+yarn build
+```
 
-To learn more about Next.js, take a look at the following resources:
+The optimized production build will be generated in the `out` directory.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Customization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- The main game code is located in the `src/game` directory. You can modify the game logic, add new scenes, and customize the game as per your requirements.
+- The NextJS project utilizes the App router, and the Game component is imported from the app/Game directory and rendered within the root page of the App router.
+- Static assets such as images, audio files, and game assets should be placed in the `public` directory in the assets folder.
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgements
+
+- [NextJS](https://nextjs.org/)
+- [Phaser](https://phaser.io/)
