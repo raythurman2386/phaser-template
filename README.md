@@ -29,8 +29,6 @@ This is a template project that combines NextJS and Phaser, providing an easy se
    git clone https://github.com/raythurman2386/phaser-template.git
    ```
 
-````
-
 2. Navigate to the project directory:
 
    ```bash
@@ -87,4 +85,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 - [NextJS](https://nextjs.org/)
 - [Phaser](https://phaser.io/)
-````
