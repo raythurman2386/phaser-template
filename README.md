@@ -18,8 +18,8 @@ This is a template project that combines NextJS and Phaser, providing an easy se
 
 ### Prerequisites
 
-- Node.js (version 12 or higher)
-- npm (version 6 or higher) or Yarn
+- Node.js (version 18 or higher)
+- npm (version 8 or higher) or Yarn
 
 ### Installation
 
@@ -53,7 +53,7 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:8080](http://localhost:8080) with your browser to see the result.
 
 ### Building for Production
 
@@ -65,7 +65,7 @@ npm run build
 yarn build
 ```
 
-The optimized production build will be generated in the `out` directory.
+The optimized production build will be generated in the `dist` directory.
 
 ### Customization
 
