@@ -1,5 +1,5 @@
 import { Game, Types } from "phaser";
-import { LoadingScene } from "./scenes";
+import { Breakout } from "./scenes";
 
 export const gameConfig: Types.Core.GameConfig = {
   title: "NextJS Phaser Template",
@@ -26,7 +26,7 @@ export const gameConfig: Types.Core.GameConfig = {
   audio: {
     disableWebAudio: false,
   },
-  scene: [LoadingScene],
+  scene: [Breakout],
 };
 
 const StartGame = (parent: string) => {

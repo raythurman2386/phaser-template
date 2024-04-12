@@ -1,7 +1,7 @@
 // @ts-nocheck
 import { Scene } from "phaser";
 
-export class LoadingScene extends Scene {
+export class Breakout extends Scene {
   constructor() {
     super({ key: "breakout" });
 
